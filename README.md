@@ -31,7 +31,7 @@ The analysis is based on a “sample NYC Airbnb listings dataset” containing l
 Data cleaning and pre-processing were carried out at the initial stage to ensure data quality and the following tasks were performed;
 - Data loading and inspection
 - Fixing the un-standardized date format
-- removing blank spaces
+- Removing blank spaces
 - Data cleaning and formatting
 - Creating additional numeric columns
 
