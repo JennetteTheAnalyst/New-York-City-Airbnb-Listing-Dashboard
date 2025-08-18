@@ -42,15 +42,6 @@ The EDA process involves analyzing the NYC Airbnb listings dataset to understand
 3. which neighborhood is most reviewed?
 4. what are the unique room types provided by NYC Airbnb?
 
-# Data Analysis
-Data analysis was done in SQL Server.
---Which host has the highest listings?
-select top 1 host_id, HOST_NAME, count(calculated_host_listings_count) as total_listings from NYC_2019
-group by host_id, HOST_NAME
-order by total_listings desc
-
-
-
 ## Results & Findings
 The analysis of NYC Airbnb listing data from 2011 to 2019 reveals:
 1.	Consistent review activity: Airbnb listings in NYC received an average of 53.34K reviews per month, indicating steady user engagement across the years.
