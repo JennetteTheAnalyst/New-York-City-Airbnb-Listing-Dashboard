@@ -1,9 +1,9 @@
 # New-York-City-Airbnb-Listing-Dashboard
 
-# Project Overview
+## Project Overview
 This project analyzes New York City Airbnb listings data to uncover trends in pricing, demand and neighborhood performance. The findings provide insights to help hosts optimize listings and guide investors on market opportunities.
 
-# Data Sources
+## Data Sources
 The analysis is based on a “sample NYC Airbnb listings dataset” containing listings data. The dataset contains the following columns;
 
 -  ID => Unique identifier for each Airbnb listing.
@@ -22,12 +22,12 @@ The analysis is based on a “sample NYC Airbnb listings dataset” containing l
 - Calculated Host Listings Count => Number of listings the host manages.
 - Availability_365 => Number of days the listing is available in a year.
 
-# Tools Used
+## Tools Used
 - Excel: Data Cleaning
 - SQL Server: Data Analysis
 - Power BI: Data Visualization.
 
-# Data Cleaning/Pre-processing
+## Data Cleaning/Pre-processing
 Data cleaning and pre-processing were carried out at the initial stage to ensure data quality and the following tasks were performed;
 - Data loading and inspection
 - Fixing the un-standardized date format
@@ -35,7 +35,7 @@ Data cleaning and pre-processing were carried out at the initial stage to ensure
 - Data cleaning and formatting
 - Creating additional numeric columns
 
-# Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 The EDA process involves analyzing the NYC Airbnb listings dataset to understand the distribution of variables, identify patterns and trends, detect potential issues, and answer key questions:
 1. which host has the highest listings?
 2. which neighborhood has the most priced services?
@@ -51,7 +51,7 @@ order by total_listings desc
 
 
 
-# Results & Findings
+## Results & Findings
 The analysis of NYC Airbnb listing data from 2011 to 2019 reveals:
 1.	Consistent review activity: Airbnb listings in NYC received an average of 53.34K reviews per month, indicating steady user engagement across the years.
 2.	High-demand neighborhoods: Neighborhoods like Bedford-Stuyvesant, Williamsburg and Harlem received the most reviews, showing high popularity and guest interest.
@@ -60,7 +60,7 @@ The analysis of NYC Airbnb listing data from 2011 to 2019 reveals:
 5.	Commercial host dominance: A few large hosts, especially Sonder (NYC) and Blueground, contributed a significant portion of total listings, indicating strong commercialization in the market.
 These findings reveal valuable insights into neighborhood performance guest preferences and host dynamics, guiding strategic decisions for hosts, investors and policymakers in the NYC short-term rental market.
 
-# Recommendations
+## Recommendations
 Based on the analysis, here are some recommendations:
 1.	Focus on High-Performing Neighborhoods: Hosts and investors should prioritize listings in Williamsburg, Midtown, Upper West Side and Bedford-Stuyvesant, as these areas consistently show high review volume and revenue generation.
 2.	Prioritize Entire Home/Apt Listings: Since 72% of total revenue comes from entire home/apartment bookings, new hosts should consider offering full property rentals to maximize profitability and meet guest expectations.
