@@ -63,6 +63,5 @@ Based on the analysis, here are some recommendations:
 This analysis has several limitations; they include the following:
 1.	Time-Bound Data: The analysis covers data only up to July 2019. It does not reflect major disruptions such as the COVID-19 pandemic, regulatory changes or market shifts in recent years.
 2.	Missing Guest Demographics and Preferences: The dataset does not include guest origin or length of stay which could provide more personalized insights into user behavior.
-3.	Overrepresentation by Large Hosts: Large-scale hosts (e.g., Sonder, Blueground) may skew listing and revenue data, making it harder to understand trends for individual or smaller hosts.
 
 
