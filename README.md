@@ -4,7 +4,8 @@
 This project analyzes New York City Airbnb listings data to uncover trends in pricing, demand and neighborhood performance. The findings provide insights to help hosts optimize listings and guide investors on market opportunities.
 
 ## Data Sources
-The analysis is based on a “sample NYC Airbnb listings dataset” containing listings data. https://github.com/JennetteTheAnalyst/New-York-City-Airbnb-Listing-Dashboard/blob/main/NYC_2019.csv
+The analysis is based on a “sample NYC Airbnb listings dataset” containing listings data. 
+https://github.com/JennetteTheAnalyst/New-York-City-Airbnb-Listing-Dashboard/blob/main/NYC_2019.csv
 The dataset contains the following columns;
 
 -  ID => Unique identifier for each Airbnb listing.
