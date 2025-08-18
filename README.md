@@ -44,7 +44,10 @@ The EDA process involves analyzing the NYC Airbnb listings dataset to understand
 
 # Data Analysis
 Data analysis was done in SQL Server.
-
+--Which host has the highest listings?
+select top 1 host_id, HOST_NAME, count(calculated_host_listings_count) as total_listings from NYC_2019
+group by host_id, HOST_NAME
+order by total_listings desc
 
 
 
@@ -59,24 +62,16 @@ These findings reveal valuable insights into neighborhood performance guest pref
 
 # Recommendations
 Based on the analysis, here are some recommendations:
-1.	Focus on High-Performing Neighborhoods
-Hosts and investors should prioritize listings in Williamsburg, Midtown, Upper West Side and Bedford-Stuyvesant, as these areas consistently show high review volume and revenue generation.
-2.	Prioritize Entire Home/Apt Listings
-Since 72% of total revenue comes from entire home/apartment bookings, new hosts should consider offering full property rentals to maximize profitability and meet guest expectations.
-3.	Adopt Commercial Hosting Strategies
-The success of major hosts like Sonder and Blueground suggests that professional management, standardization and scalability are key to competing effectively in the NYC Airbnb market.
-4.	Enhance Listings in Emerging Areas
-Neighbourhoods with moderate reviews and revenue (e.g., Bushwick, East Village) may benefit from improved listing quality, pricing strategies and marketing to boost performance.
-5.	Support Regulatory Compliance and Transparency
-With the rise in commercial listings, policymakers should implement clear and enforceable short-term rental regulations to balance tourism with residential housing needs.
+1.	Focus on High-Performing Neighborhoods: Hosts and investors should prioritize listings in Williamsburg, Midtown, Upper West Side and Bedford-Stuyvesant, as these areas consistently show high review volume and revenue generation.
+2.	Prioritize Entire Home/Apt Listings: Since 72% of total revenue comes from entire home/apartment bookings, new hosts should consider offering full property rentals to maximize profitability and meet guest expectations.
+3.	Adopt Commercial Hosting Strategies: The success of major hosts like Sonder and Blueground suggests that professional management, standardization and scalability are key to competing effectively in the NYC Airbnb market.
+4.	Enhance Listings in Emerging Areas: Neighbourhoods with moderate reviews and revenue (e.g., Bushwick, East Village) may benefit from improved listing quality, pricing strategies and marketing to boost performance.
+5.	Support Regulatory Compliance and Transparency: With the rise in commercial listings, policymakers should implement clear and enforceable short-term rental regulations to balance tourism with residential housing needs.
 
 # Limitations
 This analysis has several limitations; they include the following:
-1.	Time-Bound Data
-The analysis covers data only up to July 2019. It does not reflect major disruptions such as the COVID-19 pandemic, regulatory changes or market shifts in recent years.
-2.	Missing Guest Demographics and Preferences
-The dataset does not include guest origin or length of stay which could provide more personalized insights into user behavior.
-3.	Overrepresentation by Large Hosts
-Large-scale hosts (e.g., Sonder, Blueground) may skew listing and revenue data, making it harder to understand trends for individual or smaller hosts.
+1.	Time-Bound Data: The analysis covers data only up to July 2019. It does not reflect major disruptions such as the COVID-19 pandemic, regulatory changes or market shifts in recent years.
+2.	Missing Guest Demographics and Preferences: The dataset does not include guest origin or length of stay which could provide more personalized insights into user behavior.
+3.	Overrepresentation by Large Hosts: Large-scale hosts (e.g., Sonder, Blueground) may skew listing and revenue data, making it harder to understand trends for individual or smaller hosts.
 
 
