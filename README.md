@@ -1,4 +1,4 @@
-# New-York-City-Airbnb-Listing-Dashboard
+# New-York-City-Airbnb-Listing-Dashboard#
 
 ## Project Overview
 This project analyzes New York City Airbnb listings data to uncover trends in pricing, demand and neighborhood performance. The findings provide insights to help hosts optimize listings and guide investors on market opportunities.
